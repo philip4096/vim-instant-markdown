@@ -172,8 +172,7 @@ function! s:bufGetLines(bufnr)
     
     "insert new line with marker otherwise two paragraphs will be fused
     call insert(lines, '<a name="#marker" id="marker"></a>', row_num)     " insert new value before index idx
-endif
-
+  endif
 
   return lines
 endfu
